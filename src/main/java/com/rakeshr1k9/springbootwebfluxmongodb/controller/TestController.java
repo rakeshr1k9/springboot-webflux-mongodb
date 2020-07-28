@@ -17,8 +17,8 @@ public class TestController {
         List<String> names = new ArrayList<>();
 
         names.add("Name1");
-        names.add("Name2");
-        names.add("Name3");
+        names.add("Test Name");
+        names.add("Test Name 3");
 
         return Mono.just(names);
 
